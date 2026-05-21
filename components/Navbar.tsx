@@ -22,12 +22,12 @@ const MENU_LINKS = [
         url: '/#about-me',
     },
     {
-        name: 'Experience',
-        url: '/#my-experience',
-    },
-    {
         name: 'Projects',
         url: '/#selected-projects',
+    },
+    {
+        name: 'Resume',
+        url: '/ashish_resume.pdf',
     },
 ];
 
@@ -121,7 +121,11 @@ const Navbar = () => {
                                     <li key={link.name}>
                                         <button
                                             onClick={() => {
-                                                router.push(link.url);
+                                                if (link.url.endsWith('.pdf')) {
+                                                    window.open(link.url, '_blank');
+                                                } else {
+                                                    router.push(link.url);
+                                                }
                                                 setIsMenuOpen(false);
                                             }}
                                             className="group text-xl flex items-center gap-3"

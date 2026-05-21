@@ -42,30 +42,39 @@ const Banner = () => {
             >
                 <div className="max-md:grow max-md:flex flex-col justify-center items-start max-w-[544px]">
                     <h1 className="banner-title slide-up-and-fade leading-[.95] text-6xl sm:text-[80px] font-anton">
-                        <span className="text-primary">AI ENGINEER</span>
-                        <br /> <span className="ml-4">ARCHITECT</span>
+                        <span className="text-primary">FULL STACK &</span>
+                        <br /> <span className="ml-4">AI/ML DEVELOPER</span>
                     </h1>
                     <p className="banner-description slide-up-and-fade mt-6 text-lg text-muted-foreground">
                         Hi! I&apos;m{' '}
                         <span className="font-medium text-foreground">
                             Ashish Kumar
                         </span>
-                        . An innovative AI Engineer & Fullstack Systems Architect with a passion for designing secure, high-performance, and visually stunning digital products.
+                        . A passionate Full Stack & AI/ML Developer and B.Tech Information Technology student at Rajkiya Engineering College Bijnor, specializing in Machine Learning, React/Next.js, and Cybersecurity.
                     </p>
-                    <Button
-                        as="link"
-                        href={GENERAL_INFO.upworkProfile}
-                        variant="primary"
-                        className="mt-9 banner-button slide-up-and-fade"
-                    >
-                        Get In Touch
-                    </Button>
+                    <div className="mt-9 flex flex-wrap gap-4 banner-button slide-up-and-fade">
+                        <Button
+                            as="link"
+                            href={GENERAL_INFO.upworkProfile}
+                            variant="primary"
+                        >
+                            Get In Touch
+                        </Button>
+                        <Button
+                            as="link"
+                            href={GENERAL_INFO.resumeUrl}
+                            target="_blank"
+                            variant="secondary"
+                        >
+                            View Resume
+                        </Button>
+                    </div>
                 </div>
 
                 <div className="md:absolute bottom-[10%] right-[4%] flex md:flex-col gap-4 md:gap-8 text-center md:text-right">
                     <div className="slide-up-and-fade">
                         <h5 className="text-3xl sm:text-4xl font-anton text-primary mb-1.5">
-                            5+
+                            3+
                         </h5>
                         <p className="text-muted-foreground">
                             Completed Projects
@@ -73,9 +82,9 @@ const Banner = () => {
                     </div>
                     <div className="slide-up-and-fade">
                         <h5 className="text-3xl sm:text-4xl font-anton text-primary mb-1.5">
-                            5K+
+                            1
                         </h5>
-                        <p className="text-muted-foreground">Hours Coded</p>
+                        <p className="text-muted-foreground">Research Paper</p>
                     </div>
                 </div>
             </div>

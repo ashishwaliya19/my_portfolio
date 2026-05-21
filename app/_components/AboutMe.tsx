@@ -55,9 +55,7 @@ const AboutMe = () => {
         <section className="pb-section" id="about-me">
             <div className="container" ref={container}>
                 <h2 className="text-4xl md:text-6xl font-thin mb-20 slide-up-and-fade">
-                    I believe in a user centered design approach, ensuring that
-                    every project I work on is tailored to meet the specific
-                    needs of its users.
+                    I build intelligent AI models and responsive web systems that turn complex datasets and user challenges into intuitive digital realities.
                 </h2>
 
                 <p className="pb-3 border-b text-muted-foreground slide-up-and-fade">
@@ -73,12 +71,10 @@ const AboutMe = () => {
                     <div className="md:col-span-7">
                         <div className="text-lg text-muted-foreground max-w-[450px]">
                             <p className="slide-up-and-fade">
-                                I&apos;m an AI Engineer & Fullstack Systems Architect dedicated to
-                                turning complex data models and concepts into state-of-the-art intelligent products. I
-                                specialize in bridging advanced machine learning algorithms with high-performance, secure software engineering.
+                                I&apos;m an Information Technology B.Tech student at Rajkiya Engineering College Bijnor, with a deep focus on AI/ML research and modern web technologies. I specialize in building custom neural network systems, developing responsive React/Next.js interfaces, and engineering secure backend pipelines.
                             </p>
                             <p className="mt-3 slide-up-and-fade">
-                                My approach focuses on constructing secure, GPU-accelerated, scalable pipelines and fullstack platforms. By prioritizing sub-100ms load times, high-fidelity user experiences, and rigorous security standards like CSP and strict input validation, I build software that is both highly secure and optimized.
+                                Recently, I successfully published and presented my research paper on image-based machine learning diagnostics at the ICSD-2025 International Conference. Beyond AI model architecture, I completed training in Ethical Hacking & Penetration Testing from CDAC Noida, allowing me to build software systems with a security-first mindset.
                             </p>
                         </div>
                     </div>
