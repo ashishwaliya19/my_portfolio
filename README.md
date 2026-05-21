@@ -35,4 +35,4 @@ npm run dev
 ```
 
 Your site will be served live at:
-👉 **http://localhost:3000**
+👉 **https://project-7kt5w.vercel.app**
